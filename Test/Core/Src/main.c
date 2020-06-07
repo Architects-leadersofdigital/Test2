@@ -95,7 +95,7 @@ int main(void)
   while (1)
   {
 	  HAL_GPIO_TogglePin(GPIOC, 9);
-	  HAL_Delau(1000);
+	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
